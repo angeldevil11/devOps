@@ -1,7 +1,7 @@
 <?php
 
 	// define path constants
-    define("APP_PATH", "http://localhost/unkpresent/public");
+    define("APP_PATH", "http://103.176.79.156/unkpresent/devOps/public");
 
     // define database config
     define("HOST_DB", "localhost");

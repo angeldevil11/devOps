@@ -18,7 +18,7 @@
 <body oncontextmenu='return false' class='snippet-body'>
 <div class="container wrapper-center">
 	<div class="wrapper bg-white">
-		<div class="h2 text-center">Universitas Klabat</div>
+		<div class="h2 text-center">Angeli Kolmate</div>
 		<form action="<?= APP_PATH;?>/login/process" method="post" class="pt-3">
 			<div class="form-group py-1 pb-2">
 				<div class="input-field">
@@ -30,7 +30,7 @@
                         <option value="warek3">Wakil Rektor 3</option>
                         <option value="registrar">Registrar</option>
                         <option value="staff">Staff</option>
-                        <option value="dosen" selected>Dosen</option>
+                        <option value="kelompok 2" selected>Dosen</option>
                     </select>
 				</div>
 			</div>
