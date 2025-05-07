@@ -41,7 +41,7 @@ $dashboard = $_SESSION['role'] === 'admin' ? 'dashboard_admin.php' : 'dashboard_
 <body>
 <div class="container">
   <div class="sidebar">
-    <h2>Universitas Klabat Klabat</h2>
+    <h2>Universitas Klabat</h2>
     <a href="<?= $dashboard ?>">Dashboard</a>
     <a href="history.php">Riwayat Booking</a>
     <a href="logout.php">Logout</a>
