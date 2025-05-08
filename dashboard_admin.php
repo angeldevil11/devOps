@@ -123,7 +123,7 @@ $name = $_SESSION['name'] ?? 'Admin';
     </div>
   </div>
   <div class="logout-bar">
-    <a href="login.php">Logout</a>
+    <a href="login.php">Rodrigo</a>
   </div>
 </body>
 </html>
