@@ -53,7 +53,7 @@ $dashboard = $_SESSION['role'] === 'admin' ? 'dashboard_admin.php' : 'dashboard_
 
       <!-- Filter Dropdown -->
       <form method="GET" style="margin-bottom: 20px;">
-        <label for="filter_room">Tampilkan Jadwal Ruangan:</label>
+        <label for="filter_room">Tampilkan Ruangan:</label>
         <select name="filter_room" onchange="this.form.submit()">
           <option value="">-- Semua Ruangan --</option>
           <?php
