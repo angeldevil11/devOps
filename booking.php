@@ -44,7 +44,6 @@ $dashboard = $_SESSION['role'] === 'admin' ? 'dashboard_admin.php' : 'dashboard_
     <h2>Universitas Klabat</h2>
     <a href="<?= $dashboard ?>">Dashboard</a>
     <a href="history.php">Riwayat Booking</a>
-    <a href="logout.php">Logout</a>
   </div>
 
   <div class="content">
@@ -53,7 +52,7 @@ $dashboard = $_SESSION['role'] === 'admin' ? 'dashboard_admin.php' : 'dashboard_
 
       <!-- Filter Dropdown -->
       <form method="GET" style="margin-bottom: 20px;">
-        <label for="filter_room">Tampilkan Ruangan:</label>
+        <label for="filter_room">Tampilkan Jadwal Ruangan:</label>
         <select name="filter_room" onchange="this.form.submit()">
           <option value="">-- Semua Ruangan --</option>
           <?php
